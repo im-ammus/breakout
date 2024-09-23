@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+canvas {
+    border: 2px solid #000304;
+   background-image: url('https://tse3.mm.bing.net/th?id=OIP.21HAWGFM1TJhxFlB-7l0zgHaEo&pid=Api&P=0&h=180');
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+#restartBtn{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #082e41;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 400px;
+}
+.win{
+    position: absolute;
+    font-size: xx-large;
+    color: blue;
+}
